@@ -1,4 +1,6 @@
 ﻿using System;
+using tabuleiro;
+using Xadrez;
 
 namespace Xadrez // Note: actual namespace depends on the project name.
 {
@@ -6,7 +8,8 @@ namespace Xadrez // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Tabuleiro tab = new Tabuleiro(8,8);
+            Tela.imprimirTabuleiro(tab);
         }
     }
 }
