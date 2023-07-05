@@ -10,7 +10,15 @@ namespace Xadrez
             {
                 for(int j = 0; j < tab.Colunas; j++)
                 {
-                    Console.Write("- ");
+                    if (tab.RetornarPeca(i,j) == null)
+                    {
+                        Console.Write("- ");
+                    }
+                    else
+                    {
+                        Console.WriteLine(tab.RetornarPeca(i,j) + " ");
+                    }
+                    
                 }
                 Console.WriteLine();
             }

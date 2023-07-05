@@ -9,6 +9,9 @@ namespace Xadrez // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Tabuleiro tab = new Tabuleiro(8,8);
+
+            tab.colocarPeca(, new);
+
             Tela.imprimirTabuleiro(tab);
         }
     }
