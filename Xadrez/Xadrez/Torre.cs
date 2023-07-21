@@ -2,15 +2,15 @@
 
 namespace xadrez
 {
-    internal class Rei : Peca
+    internal class Torre : Peca
     {
-        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
 
         public override string ToString()
         {
-            return "R";
+            return "T";
         }
     }
 }

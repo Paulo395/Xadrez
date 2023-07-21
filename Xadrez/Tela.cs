@@ -16,7 +16,7 @@ namespace Xadrez
                     }
                     else
                     {
-                        Console.WriteLine(tab.RetornarPeca(i,j) + " ");
+                        Console.Write(tab.RetornarPeca(i,j) + " ");
                     }
                     
                 }

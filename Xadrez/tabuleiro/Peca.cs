@@ -13,7 +13,7 @@ namespace tabuleiro
         public int QteMovimentos { get; private set; }
         public Tabuleiro Tab { get; private set; }
 
-        public Peca(Cor cor, Tabuleiro tab)
+        public Peca(Tabuleiro tab, Cor cor)
         {
             Posicao = null;
             Cor = cor;
